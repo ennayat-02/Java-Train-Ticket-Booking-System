@@ -29,11 +29,12 @@ This project demonstrates strong understanding of **Object-Oriented Programming 
 ## 📂 Project Structure
 Train-Booking-System/
 │
-├── IRCTCapp.java         → Main class that runs the entire program
-├── User.java             → Handles user details (name, age, gender, ID)
-├── Train.java            → Stores train information and seat availability
-├── Ticket.java           → Represents ticket details after booking
-├── BookingServices.java  → Handles booking, cancellation, and seat management
-└── UserService.java      → Manages user-related operations and records
+├── IRCTCapp.java         → Main class that runs the entire program  
+├── User.java             → Handles user details (name, age, email, etc.)  
+├── Train.java            → Stores train information and seat availability  
+├── Ticket.java           → Represents a booked ticket with user and train details  
+├── BookingServices.java  → Handles booking, cancellation, and ticket storage  
+└── UserService.java      → Manages user registration and login operations  
+
 
 
